@@ -51,7 +51,7 @@ KanGrubu: Başlangıçta 1560 mevcut, 675 eksik. Hasta bazlı doldurma uyguland�
 Cinsiyet: Başlangıçta 2066 mevcut, 169 eksik. Aynı hasta-bazlı doldurma sonrası: 2090 mevcut, 145 eksik olarak raporlanmıştır.
 
 
-Kan grubuna value_count uygulanmıştır ve 8 farklı kategori olduğu tespit edilmiştir.Kan guruplarının analizinin daha tutarlı yapılabilmesi için 4 ana kategorik gruba indirgenmiştir.
+Kan grubuna value_count uygulanmıştır ve 8 farklı kategoriden 4 farklı kategoriye indirilerek değişken daraltılmıştır. 
 Eksik Data Düzeltme
 Analize dahil edilmeyen veriler vardır bunlar Tanilar ve TedaviAdi sınıflarıdır. Totalde 294 farklı Tanı sınıfı ortaya çıkmıştır bunlardan bazıları boş veri bazıları tanımsız karakter içermektedir ve bu verinin incelenmesini zorlaştırmaktadır. Sonuç olarak  anlaşılabilir bir analiz çıkmayacağı kanısına varılmıştır ve  verinin silinmesine karar verilmiştir.
 Aynı şekilde TedaviAdi verisi 244 farklı sonuç vermiştir ve bu sonucun yorumlanmasından sağlıklı bir sonuç çıkmayacağına karar verilip veri silinmiştir.  
